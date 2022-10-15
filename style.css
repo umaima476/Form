@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    padding: 110px;
+}
+#left{
+    /* width: 50%; */
+    background-color: lightseagreen;
+    padding: 45px 35px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+button{
+    font-weight: bold;
+    border: none;
+    padding: 20px;
+    width: 50%;
+}
+#right{
+    /* width: 50%; */
+    padding: 45px 35px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+form .row{
+    margin-top: 25px;
+}
+label{
+    font-weight: bold;
+} 
+.form-control-lg{
+    border-radius: 0px;
+}
+#Em{
+    display: block;
+}
+@media (max-width:780px) {
+    #left{
+        border-radius: 0px;
+    }
+    #right{
+        border-radius: 0px;
+    }
+}

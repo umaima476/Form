@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>  
+</head>
+
+    <title>Form</title>
+</head>
+<body style="background-color:antiquewhite;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col" id="left">
+                <h1>INFORMATION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima vero doloremque veritatis laborum impedit. Veritatis nihil quia consectetur, itaque officia laboriosam quae temporibus? Consequuntur excepturi nihil voluptatem maiores similique accusantium?</p>
+                <p><strong>Lorem Ipsum,</strong> dolor sit amet consectetur adipisicing elit. Quisquam obcaecati exercitationem nam repudiandae delectus quod consequuntur debitis?</p>
+                <button style="border-top-left-radius:5px ; border-bottom-right-radius:5px;">Have An Account</button>
+            </div>
+            <div class="col" id="right">
+                <h1>REGISTER FORM</h1>
+                <form action="file.php" method="get">
+                    <div class="row">
+                        <div class="col">
+                            <label for="FN" class="form-label">First Name</label>
+                            <input type="text" class="form-control form-control-lg" name="FirstName" id="FN">
+                        </div>
+                        <div class="col">
+                            <label for="LN" class="form-label">Last Name</label>
+                            <input type="text" class="form-control form-control-lg" name="LastName" id="LN">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="Em" class="form-label">Your Email</label>
+                            <input type="email" class="form-control form-control-lg" name="Email" id="Em">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class ="col">
+                            <label for="Pw" class="form-label">Password</label>
+                            <input type="password" class="form-control form-control-lg" name="Passworf" id="Pw">
+                        </div>
+                        <div class ="col">
+                            <label for="Cpw" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control form-control-lg" name="ConfirmPassword" id="Cpw">
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="Agrrement" id="Agr">
+                        <label class="form-check-label">I agree to the <a href="#">Terms and Conditions</a></label>
+                    </div>
+                    <div>
+                        <input type="button" value="Register">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
